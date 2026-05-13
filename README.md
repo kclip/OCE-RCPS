@@ -50,7 +50,7 @@ The code is based on PyTorch and requires a few common dependencies. It should w
 (4) **Precompute loss and size tables**: Generate `.npy` files containing per-sample losses and prediction set sizes for each lambda value, and place them in `./.cache/`.
 
 
-## Conformal alignment-based (CAb) model cascading
+## OCE-RCPS
 In order to reproduce the results presented in this paper, one can run ```python ./risk_histogram_oce.py``` with different parameter settings as described below.
 
 | Argument       | Type    | Default  | Description                                        |
